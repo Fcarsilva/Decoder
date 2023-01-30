@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Decodificador ONE</title>
+    <title>Decoder ONE</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,18 +13,18 @@
         <img class="logo-alura" src="/imagens/logoAlura.png">
     </header>             
 
-    <main class="principal">
+    <main>
         <section>
-            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto" ></textarea>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Enter your text" ></textarea>
            
             <div class="informacao">
                 <img class="warning" src="/imagens/Vector (2).png">
-                <h6>Apenas letras minúsculas e sem acento.</h6>
+                <h6>Only lowercase letters and no accent.</h6>
             </div> 
 
             <div class="botoes">
-                <button id="cript" class="criptografar">Criptografar</button>
-                <button id="desen" class="descriptografar">Descriptografar</button>
+                <button id="cript" class="criptografar">Encrypt</button>
+                <button id="desen" class="descriptografar">Decrypt</button>
             </div> 
     
  
@@ -34,11 +34,11 @@
             <textarea class="mensagem" cols="20" rows="10" disabled></textarea>
             <div id="texto-cheio" class="boneco-texto">                
                 <img class="boneco" src="/imagens/boneco.png">
-                <h5 class="nenhuma-mensagem">Nenhuma mensagem encontrada</h5>
-                <h6 class="digite-texto">Digite um texto que você deseja criptografar ou descriptografar</h6>
+                <h5 class="nenhuma-mensagem">No message found</h5>
+                <h6 class="digite-texto">Enter text that you want to encrypt or decrypt</h6>
             </div>
 
-            <button id="copy" class="copiar" onclick="copiarTexto()">Copiar</button>  
+            <button id="copy" class="copiar" onclick="copiarTexto()">Copy</button>  
              
         </section>
     </main>   
